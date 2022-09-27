@@ -41,6 +41,7 @@ df.describe()
 ![image](https://user-images.githubusercontent.com/86832944/192603363-10aeaf52-b7dc-4be3-80ac-f23e47235f8f.png)
 
 BOX PLOT:
+
 PROGRAM :
 
 sns.boxplot(x="Postal Code", data=df)
@@ -48,6 +49,7 @@ sns.boxplot(x="Postal Code", data=df)
 ![image](https://user-images.githubusercontent.com/86832944/192603693-6866557e-2f0c-47c0-96ae-4d36775cebed.png)
 
 COUNT PLOT:
+
 PROGRAM :
 
 sns.countplot(x="Postal Code", data=df)
@@ -55,6 +57,7 @@ sns.countplot(x="Postal Code", data=df)
 ![image](https://user-images.githubusercontent.com/86832944/192603994-9ada659f-6b28-45d0-a511-a879cc36bf15.png)
 
 DIST PLOT:
+
 PROGRAM :
 
 sns.distplot(df["Postal Code"])
@@ -62,6 +65,7 @@ sns.distplot(df["Postal Code"])
 ![image](https://user-images.githubusercontent.com/86832944/192604219-e1aa8344-e46d-40df-90d9-ee025bf72377.png)
 
 HIST PLOT:
+
 PROGRAM :
 
 sns.histplot(x="Postal Code", data=df)
@@ -69,6 +73,7 @@ sns.histplot(x="Postal Code", data=df)
 ![image](https://user-images.githubusercontent.com/86832944/192604528-fa3c8548-780f-4ac0-a485-97e9770972f8.png)
 
 SKEW
+
 PROGRAM :
 
 df.skew()
@@ -82,6 +87,7 @@ sns.displot(x="Postal Code", data = df)
 ![image](https://user-images.githubusercontent.com/86832944/192605217-aec87406-f2c8-4957-9dee-077951aa6716.png)
 
 KURTOSIS
+
 PROGRAM:
 
 df.kurtosis()
@@ -90,7 +96,7 @@ sns.boxplot(x="Postal Code", data = df)
 
 ![image](https://user-images.githubusercontent.com/86832944/192605564-cd777d74-3f66-46fe-b4be-8e09ed534076.png)
 
-Result
+RESULT:
      
      Thus, Univariate Analysis is performed on given data and saved successfully.
 
